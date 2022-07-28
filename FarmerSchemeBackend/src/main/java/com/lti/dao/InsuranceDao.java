@@ -2,6 +2,6 @@ package com.lti.dao;
 
 import com.lti.entity.Insurance;
 
-public interface InsuranceRepo {
+public interface InsuranceDao {
 	Insurance findById(int id);  
 }

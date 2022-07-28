@@ -14,7 +14,7 @@ import org.springframework.stereotype.Repository;
 import com.lti.entity.Crop;
 
 @Repository
-public class CropRepositoryImpl implements CropRepository {
+public class CropDaoImpl implements CropDao {
 	@PersistenceContext
 	EntityManager em;
 	

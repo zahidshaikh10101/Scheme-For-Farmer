@@ -13,7 +13,7 @@ import com.lti.entity.Crop;
 import com.lti.entity.SellCrop;
 
 @Repository
-public class BidderRepositoryImpl implements BidderRepository{
+public class BidderDaoImpl implements BidderDao{
 
 	@PersistenceContext
 	EntityManager em;

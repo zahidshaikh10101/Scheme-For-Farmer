@@ -9,7 +9,7 @@ import com.lti.entity.Insurance;
 import com.lti.entity.InsuranceClaim;
 import com.lti.entity.SellCrop;
 
-public interface FarmerRepository {
+public interface FarmerDao {
 
 	int addOrUpdateFarmer(Farmer farmer);
 	boolean isFarmerPresent(String email);

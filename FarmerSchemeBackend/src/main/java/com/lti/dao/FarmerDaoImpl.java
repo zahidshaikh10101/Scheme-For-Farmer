@@ -16,7 +16,7 @@ import com.lti.entity.InsuranceClaim;
 import com.lti.entity.SellCrop;
 
 @Repository
-public class FarmerRepositoryImpl implements FarmerRepository {
+public class FarmerDaoImpl implements FarmerDao {
 	
 	@PersistenceContext
 	EntityManager em;

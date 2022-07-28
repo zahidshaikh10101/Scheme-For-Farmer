@@ -8,7 +8,7 @@ import org.springframework.stereotype.Repository;
 import com.lti.entity.Insurance;
 
 @Repository
-public class InsuranceRepoImpl implements InsuranceRepo{
+public class InsuranceDaoImpl implements InsuranceDao{
 	@PersistenceContext
 	EntityManager em;
 	

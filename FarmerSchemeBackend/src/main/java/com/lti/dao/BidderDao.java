@@ -5,7 +5,7 @@ import java.util.List;
 import com.lti.entity.Bidder;
 import com.lti.entity.Crop;
 
-public interface BidderRepository {
+public interface BidderDao {
 	int addOrUpdateBidder(Bidder bidder);
 	boolean isBidderPresent(String email);
 	int findByEmailAndPassword(String email, String password);
